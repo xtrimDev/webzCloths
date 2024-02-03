@@ -1,0 +1,157 @@
+.item1{
+    margin-bottom: 20px;
+}
+.page2sec1{
+    /* height: ; */
+    display: flex;
+    width: 95%;
+    
+ 
+   
+    margin: 0px auto;
+    background-color: #b7aeae;
+
+}
+
+.p2leftside img{
+    width: 90%;
+    margin: 20px;
+
+}
+.p2leftside{
+    display: flex;
+    flex-direction: column;
+    width:22%;
+
+}
+.p2rightside{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 20px;
+
+
+}
+.p2rightside a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.priceold{
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: line-through;
+    margin: 4px 0px;
+    color: rgb(169, 16, 16);
+
+}
+.pricenew{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    margin-left: 10px;
+    
+
+}
+
+.headingofcart{
+    background-color: #ffc500;
+    color: #4f2f08;
+    height: 50px;
+    line-height: 50px;
+    /* margin: 21px 0px;  */
+    /* justify-content: center; */
+    display: flex;
+    margin: 25px auto 0px auto;
+    width: 95%;
+
+}
+.headingofcart h2{
+    padding: 3px 30px;
+
+}
+.headingofcart:hover{
+    cursor: pointer;
+}
+.headingofproduct{
+    background: #007cff;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    /* margin: 21px 0px; */
+    /* justify-content: center; */
+    display: flex;
+    margin: 0px 0px;
+    width: 100%;
+    padding: 2px 9px;
+}
+.headingofproduct:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+.removefromcart{
+    width: 18%;
+    font-size: 16px;
+    margin: 6px 28px;
+    padding: 9px 0px;
+    background-color: #dadb12;
+    border: none;
+    color: rgb(56, 6, 6);
+    font-weight: 500;
+    border-radius: 33px;
+}
+.removefromcart:hover{
+    background-color: #ffc500;
+    cursor: pointer;
+
+}
+.BuyNow{
+    width: 11%;
+    font-size: 16px;
+    margin: 6px -25px;
+    padding: 9px 0px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 33px;
+}
+.BuyNow:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+
+}
+
+.detailbox{
+    display: flex;
+    /* margin-top: 20px; */
+}
+.detailhead p{
+    margin: 4px 0px;
+
+}
+.detailans p{
+    margin: 4px 0px;
+
+}
+.detailans {
+    margin: 0px 10px;
+
+}
+
+.prices{
+    display: flex;
+    margin: 16px 0px;
+
+}
+.buttons{
+    margin:0px 25px;
+}

@@ -1,0 +1,167 @@
+.page2sec1{
+    /* height: ; */
+    display: flex;
+    width: 95%;
+ 
+    background-color: #e0ebef;
+   
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.p2leftside img{
+    object-fit: contain;
+}
+.p2leftside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-height: 500px;
+    overflow: hidden;
+    margin: 50px;
+
+}
+.p2rightside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+
+
+}
+.p2rightside a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.priceold{
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: line-through;
+    margin: 4px 0px;
+    color: rgb(169, 16, 16);
+
+}
+.pricenew{
+    font-weight: 500;
+    font-size: 33px;
+    
+
+}
+
+
+.headingofproduct{
+    background: #007cff;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    /* margin: 21px 0px;  */
+    justify-content: center;
+    display: flex;
+    margin: 25px auto 0px auto;
+    width: 95%;
+
+}
+
+.coloroptions{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.colorheading{
+    margin: 5px 50px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.options{
+    margin: 5px 50px;
+
+}
+.options input{
+    margin: 5px 4px;
+
+}
+.buttons{
+    display: flex;
+}
+
+.addtocart{
+    width: 22%;
+    font-size: 16px;
+    margin: 6px 50px 6px 0;
+    padding: 9px 0px;
+    background-color: #dadb12;
+    border: none;
+    color: rgb(56, 6, 6);
+    font-weight: 500;
+    border-radius: 33px;
+}
+.addtocart:hover{
+    background-color: #ffc500;
+
+}
+.BuyNow{
+    width: 17%;
+    font-size: 16px;
+    margin: 6px -25px;
+    padding: 9px 0px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 33px;
+}
+.BuyNow:hover{
+    background-color: darkgreen;
+}
+
+.detailbox{
+    display: flex;
+    margin-top: 20px;
+}
+.detailhead p{
+    margin: 16px 0px;
+
+}
+.detailans p{
+    margin: 16px 0px;
+
+}
+.detailans {
+    margin: 0px 50px;
+
+}
+
+@media screen and (max-width: 1166px) {
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .buttons button {
+        display: block;
+        width: auto;
+        padding: 9px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .page2sec1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p2rightside {
+        width: 90%;
+    }
+
+    .p2leftside{
+        margin-bottom: 0;
+    }
+}
