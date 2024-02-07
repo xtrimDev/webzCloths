@@ -15,3 +15,10 @@ function auto_load_files(STRING $files)
 
 /** Registry for autoload file for `auto_load_files` */
 spl_autoload_register('auto_load_files');
+
+$db = new Database();
+if (!$db->query("SELECT * FROM `user` WHERE 1")->numRows()) {
+    if (!strpos($_SERVER['REQUEST_URI'],"login.php")) {
+        goto_login();
+    }
+}
