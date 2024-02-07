@@ -30,6 +30,8 @@ if (strpos($_SERVER['REQUEST_URI'], 'post/')) {
     $post_id = ltrim($_SERVER['REQUEST_URI'], "post/");
 
     if(strpos($post_id, '/') || !is_numeric($post_id)) {
+        header('HTTP/1.0 404 Not Found');
+
         $body = $error404;
         $details = $details404;
     } else {
@@ -113,6 +115,8 @@ EOPAGE;
 
 
         } else {
+            header('HTTP/1.0 404 Not Found');
+
             $body = $error404;
             $details = $details404;
         }
@@ -198,6 +202,8 @@ EOPAGE;
     </section>
 EOPAGE;
     } else {
+        header('HTTP/1.0 404 Not Found');
+
         $body = $error404;
         $details = $details404;
     }
@@ -278,6 +284,8 @@ EOPAGE;
 EOPAGE;
     }
 }else {
+    header('HTTP/1.0 404 Not Found');
+
     $body = $error404;
     $details = $details404;
 }

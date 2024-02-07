@@ -76,8 +76,8 @@ class files_default
             'link' => '/edit.php',
             'user_type' => [1]
         ],
-        'Edit Products' => [
-            'link' => '/edit.php',
+        'Products' => [
+            'link' => '/products.php',
             'user_type' => [0,1]
         ],
         'About Us' => [

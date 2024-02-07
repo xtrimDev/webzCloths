@@ -39,8 +39,8 @@ EOPAGE;
    if (is_array($mid_Poster) && count($mid_Poster)) {
        $body .= <<<EOPAGE
             <div class="sec1rightbox1 ">
-                <img src="{$url->home()}/uploads/featured/{$Big_Poster['poster']}" alt="error">
-                <a href="javascript:void(0)">"{$Big_Poster['text']}"</a>
+                <img src="{$url->home()}/uploads/featured/{$mid_Poster['poster']}" alt="error">
+                <a href="javascript:void(0)">"{$mid_Poster['text']}"</a>
             </div>
 EOPAGE;
    }
@@ -49,9 +49,9 @@ EOPAGE;
         $body .= <<<EOPAGE
             <div class="sec1rightbox2">
                 <div>
-                    <img src="{$url->home()}/uploads/featured/{$Big_Poster['poster']}" alt="error">
+                    <img src="{$url->home()}/uploads/featured/{$small_Poster['poster']}" alt="error">
                 </div>
-                <div><a href="javascript:void(0)">"{$Big_Poster['text']}"</a></div>
+                <div><a href="javascript:void(0)">"{$small_Poster['text']}"</a></div>
             </div>
 EOPAGE;
     }

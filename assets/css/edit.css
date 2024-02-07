@@ -1,0 +1,213 @@
+.admnav{
+    background-color: #833535;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    line-height: 35px;
+}
+.adm1{
+    color: white;
+    margin: 0px 18px;
+    font-size: 20px;
+
+}
+.adm1:hover{
+    cursor: pointer;
+}
+.adm2{
+    display: flex;
+    margin: 0px 18px;
+
+
+
+}
+.adm2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.admnav2{
+    /* background-color: rgb(233 233 233); */
+    background-color: whitesmoke;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.userlist{
+    margin: 0px 20px;
+}
+.userlist:hover{
+    cursor: pointer;
+}
+.adminname{
+    margin: 0px 20px;
+    display: flex;
+}
+.adminname a{
+
+    color: blue;
+    text-decoration: none;
+}
+.entrynumber{
+    display: flex;
+}
+.admnav3{
+    margin-top: 20px;
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.searcharea{
+    display: flex;
+}
+.entrynumber p{
+    margin: 0px 10px;
+}
+
+.num{
+    width: 30px;
+    height: 25px;
+    margin-top: 3px;
+}
+.inputarea{
+    width: 160px;
+    height: 25px;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+
+/* .th1{
+    width: 30px;
+
+}
+.th2{
+    width: 181px;
+
+}
+.th3{
+    width: 181px;
+
+}
+.th4{
+    width: 300px;
+
+}
+.th5{
+    width: 200px;
+
+}
+.th6{
+    width: 200px;
+
+}
+.th7{
+    width: 200px;
+
+}
+.th8{
+    width: 200px;
+
+}
+.t्1{
+    width: 30px;
+
+}
+.t्2{
+    width: 200px;
+
+}
+.t्3{
+    width: 200px;
+
+}
+.t्4{
+    width: 300px;
+
+}
+.t्5{
+    width: 200px;
+
+}
+.t्6{
+    width: 200px;
+
+}
+.t्7{
+    width: 200px;
+
+}
+.t्8{
+    width: 200px;
+
+} */
+th{
+    text-align: left;
+    background-color: #157493;
+    height: 40px;
+    padding: 0px 15px;
+    color: white;
+}
+td{
+    padding: 0px 10px;
+    font-size: 15px;
+
+
+}
+.actiondiv {
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+.view {
+    background-color: green;
+    color: white;
+    padding: 2px 4px;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+.edit {
+    background-color: blue;
+    color: white;
+    padding: 2px 4px;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+
+}
+.remove {
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+
+
+}
+.disable {
+    background-color: rgb(247 225 84);
+    padding: 2px 4px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.data{
+    margin-top: 20px;
+}
+.th,td{
+
+    padding: 15px;
+}
