@@ -39,11 +39,11 @@ if (!defined('LOGO_URL')) {
 }
 
 if (!defined('SMTP_EMAIL')) {
-    define('SMTP_EMAIL', 'bhandarisameer512@gmail.com');
+    define('SMTP_EMAIL', '');
 }
 
 if (!defined('SMTP_PASSWORD')) {
-    define('SMTP_PASSWORD', 'shuqarukimqsjucq');
+    define('SMTP_PASSWORD', '');
 }
 
 if (!defined('DBHOST')) {
